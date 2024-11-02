@@ -1,0 +1,225 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.navbar h1 {
+    font-size: 24px;
+}
+
+.navbar nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.0em;
+}
+
+.hero h4 {
+    font-size: 1.5em;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #e68a00;
+}
+
+/* biodata Section */
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: rgb(252, 252, 252);
+}
+td {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    width: 30%;
+}
+
+img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+/* Gallery Section */
+.gallery {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.gallery-item p {
+    font-size: 1em;
+    color: #555;
+    margin: 5px 0;
+}
+
+.gallery-item span {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Description Section */
+.description {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.description h2 {
+    font-size: 1.8em;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.description p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Video Container */
+.video-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Video Player Styling */
+.video-player {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Hover Effect */
+.video-player:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+/* Custom Controls (Optional) */
+.video-player::-webkit-media-controls-play-button,
+.video-player::-webkit-media-controls-pause-button,
+.video-player::-webkit-media-controls-volume-slider {
+    filter: invert(1);
+}
+
+/* Fullscreen Button Styling (Optional) */
+.video-player::-webkit-media-controls-fullscreen-button {
+    filter: invert(1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}

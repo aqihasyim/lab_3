@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite | Hobbies</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 15px;
+        }
+        .navbar h1 {
+            color: white;
+            margin: 0;
+        }
+        .navbar nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        /* Hobbies Section */
+        h1 {
+            color: #000; /* Set title to black */
+        }
+        .hobby-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .hobby-item {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #e9f5f2;
+            border-radius: 8px;
+        }
+        /* Gallery Section */
+        .gallery-grid {
+            display: flex;
+            justify-content: center;
+            gap: 15px; /* Space between images */
+            margin-top: 10px;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+        }
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <h1>Hobbies</h1>
+            <nav>
+                <a href="biodata.html">Biodata</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="campuslife.html">Campus Life</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hobbies Section -->
+    <div class="container">
+        <h1>My Hobbies</h1>
+        <ul class="hobby-list">
+            <!-- Drawing Hobby -->
+            <li class="hobby-item">🎨 Drawing</li>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="imga.jpg" alt="Drawing Sample 1">
+                    <p>Drawing Sample 1</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgb.jpg" alt="Drawing Sample 2">
+                    <p>Drawing Sample 2</p>
+                </div>
+            </div>
+
+            <!-- Piano Hobby -->
+            <li class="hobby-item">🎹 Playing Piano</li>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="imgc.jpg" alt="Piano Session 1">
+                    <p>Piano Session 1</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgd.jpg" alt="Piano Session 2">
+                    <p>Piano Session 2</p>
+                </div>
+            </div>
+
+            <!-- Reading Books Hobby -->
+            <li class="hobby-item">📚 Reading Books</li>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="imge.jpg" alt="Book 1">
+                    <p>Book Cover 1</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="imgf.jpg" alt="Book 2">
+                    <p>Book Cover 2</p>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <!-- Description Section -->
+    <section class="description container">
+        <h2>About My Hobbies</h2>
+        <p>I love being creative and exploring new things. Drawing is my way of expressing my imagination, playing the piano helps me unwind and connect with music, and reading books lets me dive into different worlds and ideas. These hobbies inspire me and bring me a lot of joy.</p>
+    </section>
+    <p><br></p>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 MyWebsite. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
